@@ -3,6 +3,7 @@
 
 from auth import Auth
 
+
 class BasicAuth(Auth):
     """
     A class used to handle authentication-related tasks inheriting from Auth.
