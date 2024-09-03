@@ -88,7 +88,6 @@ class BasicAuth(Auth):
         except ValueError:
             return None, None
 
-        email, password = decoded_base64_authorization_header.split(":")
         return email, password
 
     def user_object_from_credentials(
